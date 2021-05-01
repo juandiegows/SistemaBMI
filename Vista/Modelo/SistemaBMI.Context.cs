@@ -13,10 +13,10 @@ namespace Vista.Modelo
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class sistemaBMIEntities : DbContext
+    public partial class SistemaBMIEntities : DbContext
     {
-        public sistemaBMIEntities()
-            : base("name=sistemaBMIEntities")
+        public SistemaBMIEntities()
+            : base("name=SistemaBMIEntities")
         {
         }
     

@@ -44,7 +44,7 @@ namespace Vista
                     maximo = (decimal?)c.Maximo;
             }
            
-            using (sistemaBMIEntities modelo = new sistemaBMIEntities())
+            using (SistemaBMIEntities modelo = new SistemaBMIEntities())
             {
 
                 List<Usuario> usuarios = (from u in modelo.usuario

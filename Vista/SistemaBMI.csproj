@@ -27,7 +27,7 @@
     <ProductName>Sistema BMI</ProductName>
     <PublisherName>Juan Diego</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationRevision>9</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -179,11 +179,10 @@
   <ItemGroup>
     <Content Include="Modelo\SistemaBMI.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>SistemaBMI.Context.cs</LastGenOutput>
       <DependentUpon>SistemaBMI.edmx</DependentUpon>
+      <LastGenOutput>SistemaBMI.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Modelo\SistemaBMI.edmx.sql" />
-    <Content Include="Modelo\sistemaBMI.mdf">
+    <Content Include="Modelo\SistemaBMI.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Modelo\SistemaBMI.tt">
@@ -191,10 +190,11 @@
       <DependentUpon>SistemaBMI.edmx</DependentUpon>
       <LastGenOutput>SistemaBMI.cs</LastGenOutput>
     </Content>
-    <Content Include="Modelo\sistemaBMI_log.ldf">
+    <Content Include="Modelo\SistemaBMI_log.ldf">
+      <DependentUpon>SistemaBMI.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>sistemaBMI.mdf</DependentUpon>
     </Content>
+    <Content Include="Modelo\SistemaBMI.edmx.sql" />
     <None Include="Resources\male-icon.png" />
     <None Include="Resources\female-icon.png" />
     <None Include="Resources\bmi-underweight-icon.png" />

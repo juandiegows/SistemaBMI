@@ -102,7 +102,7 @@ namespace Vista
                 MessageBox.Show("Debe llenar todos los campos");
                 return;
             }
-            using (sistemaBMIEntities modelo = new sistemaBMIEntities())
+            using (SistemaBMIEntities modelo = new SistemaBMIEntities())
             {
                 modelo.usuario.Add(new usuario {
 

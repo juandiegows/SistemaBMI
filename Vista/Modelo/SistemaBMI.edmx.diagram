@@ -4,8 +4,8 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="8e9b40bb54804f75946de41372ecfba9" Name="Diagram1">
-        <EntityTypeShape EntityType="sistemaBMIModel.usuario" Width="1.5" PointX="0.75" PointY="0.75" />
+      <Diagram DiagramId="9d1554d3ce5842de9298f7dd882287bb" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="SistemaBMIModel.usuario" Width="1.5" PointX="0.75" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
