@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SistemaBMI.exe" version="1.0.0.8" publicKeyToken="7a83ba279ffb41e5" language="es-CO" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SistemaBMI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SistemaBMI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SistemaBMI.exe" size="93176">
+      <assemblyIdentity name="SistemaBMI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ew5fVTVO+rnd0RYwbSuZEvEKpluLkkzlcdXFES4M51s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Modelo\SistemaBMI.Context.tt" size="22934">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>++OueeKZ2sd7SEqQj9+eJR27OhRcjgXtD66hvlgybb4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Modelo\SistemaBMI.edmx.sql" size="2119">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bXY0VyTorJjPk2fzPyilOFB7emDg29bhUOH5wSr2P1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Modelo\SistemaBMI.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OG6bnmGoxAH/DHSfQc45a/dYtvciNLRJt3BobbRqel0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Modelo\SistemaBMI.tt" size="25279">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mXJtimQmW1DHy9VE1YqR0nW2dfHSWqUSeoXFI4Z2ABU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Modelo\SistemaBMI_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mOunLpwIo6F1YHshEEV0/0iQkJ8uaWAThPrFVCWpEa8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SistemaBMI.exe.config" size="1480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JJTucKOq8v84M+Y7uUuZNCQgtrzG+qi8S8Gk9gHHT/M=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-54PV58P\WordSkill" issuerKeyHash="b05b75928a6a6c9d4fcfe3a69cde2b1167773168" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yraJYTcm42a20YynoZcyC+nRK2gzrCNgCSHnGhCRaRQ=</DigestValue></Reference></SignedInfo><SignatureValue>VExSMdjaIcwDxkAiCpFuHAlj3OoiqyrStAI6hzjcsXAFYA5ADmqwReivHmTpQyUAQXH+sPmbWy9ecZeW/fEzBjTwDvfu+ahP7nYHkYPNsCeYCfihsuFYiZMviCIqoRd9XJGM3or/HVP35vltYjYp8VDM3/LjjkjVTLOJLjtEMo8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pGGnom8KuLtGMuSM6HUM58ulf5XDod7Hr2TfUJDDc3RkFalrENGCVM3RovXlGsflULq/ISKfrjmULfuBuhGlbEek67PCE3AGsnOlWH7Skv9SAbxhy5DX+OB0P9GYhoe2t2bz3Y6WuV5Dqg4EoDiPThjiTMfzQTRk+2qnj1GxB30=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="146991101ae721096023ac33682bd1e90b3297a1a78cd1b666e326376189b6ca" Description="" Url=""><as:assemblyIdentity name="SistemaBMI.exe" version="1.0.0.8" publicKeyToken="7a83ba279ffb41e5" language="es-CO" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-54PV58P\WordSkill</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pONBSikPwNE53ZOvgXiWi/R7tun18mkkQw0GUz6njfk=</DigestValue></Reference></SignedInfo><SignatureValue>aLDk6YE3WDu/L9orn3KdQWFqPP8aXkZdzcQLtzEbZxD1YMKWllKHyEOWXoccq9ZySW4gphhyirtGR5ewxBXYHbXB4re9onyfga/TnoydGeeKvh49IZOZ6mxcz22txSJfvY8oq91AlpJabcqZuKE4M/b4JSkeIfJW6y/wLjQ15ic=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pGGnom8KuLtGMuSM6HUM58ulf5XDod7Hr2TfUJDDc3RkFalrENGCVM3RovXlGsflULq/ISKfrjmULfuBuhGlbEek67PCE3AGsnOlWH7Skv9SAbxhy5DX+OB0P9GYhoe2t2bz3Y6WuV5Dqg4EoDiPThjiTMfzQTRk+2qnj1GxB30=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQG8L5lR2iErBIp2fJDkoqyzANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtADUANABQAFYANQA4AFAAXABXAG8AcgBkAFMAawBpAGwAbDAeFw0yMTA0MzAxNTAwMzRaFw0yMjA0MzAyMTAwMzRaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0ANQA0AFAAVgA1ADgAUABcAFcAbwByAGQAUwBrAGkAbABsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkYaeibwq4u0Yy5IzodQzny6V/lcOh3sevZN9QkMNzdGQVqWsQ0YJUzdGi9eUax+VQur8hIp+uOZQt+4G6EaVsR6Trs8ITcAayc6VYftKS/1IBvGHLkNf44HQ/0ZiGh7a3ZvPdjpa5XkOqDgSgOI9OGOJMx/NBNGT7aqePUbEHfQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFgYV0PDCkP9DoDdBa5G4uxmSIjF9hUPWE+8guF0igRMGvey43+lpY1HdTdKAAfZ/5/+BgMLTAEBgOe4UCj0OOECoi3N1ClQvTmhdq+aTX5a9zCy+w2Mu8wKTV0bkxfiwg5+bvH/AFP2c8JRvVxY7uFXbCmccAtgvY/QCbzfJdmd</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
